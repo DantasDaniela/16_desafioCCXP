@@ -15,7 +15,7 @@ button:hover {
 
 header {
   background-color: #FFD900;
-  
+  display: flex;
 }
 header img{
     margin-top: 25px;
@@ -26,9 +26,9 @@ header img{
   background-color: #514988;
   display: grid;
   border-radius: 0px;
-  height: 620px;
+  height: 600px;
   font-size: 20px;
-  width: 850px;
+  width: 900px;
   color: white;
   
 }
@@ -37,7 +37,7 @@ video{
     height: 400px;
     display: grid;
     grid-auto-flow: column;
-    margin-left: 0px;
+    
     
 }
 
@@ -71,11 +71,11 @@ p{
 }
 
 footer{
-  height: 250px;
+  height: 200px;
   margin-top: 0px;
   display: grid;
   grid-auto-flow: column;
-  
+  margin-left: 250px;
 }
 button{
   
@@ -87,18 +87,18 @@ button{
   height: 150px;
   font-size: 40px;
   width: 500px;
-  margin-top: 10px;
+  margin-top: 0px;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 300px;
+  
 }
 #textoFooter{
   color: #F3C61F;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 0px;
-  margin-top: 5px;
-  margin-bottom: 60px;
-  margin-left: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  width: 2000px;
   
 }
 
@@ -106,14 +106,15 @@ button{
   display: grid;
   grid-auto-flow: column ;
   margin-top: 0px;
-  
   width: 800px;
   margin-left: 100px;
+  
 
 }
 .timer h1{
   color: #514988;
   font-weight: bold;
+  font-size: 60px;
   
 }
 
@@ -123,14 +124,7 @@ button{
   margin-left: 150px;
   
 }
-.row{
-  margin-left: 350px;
-  
-}
-audio{
-  background-color: #514988;
-  
-}
+
 
 
   
