@@ -76,6 +76,7 @@ footer{
   display: grid;
   grid-auto-flow: column;
   margin-left: 250px;
+  margin-bottom: 50px;
 }
 button{
   
@@ -125,6 +126,33 @@ button{
   
 }
 
+.card-highLight
+{
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+.card-selected{
+  border: 5px solid green;
+}
+
+input{
+  
+  background-color: #514988;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 0px;
+  margin: 30px;
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 100px;
+
+}
+
+form{
+  background-color: #F3C61F;
+ 
+}
 
 
   
